@@ -42,7 +42,7 @@ const silverGradient = "bg-gradient-to-br from-white via-zinc-200 to-zinc-300";
 
 export default function ZealDeployDashboard() {
     const [currentStep, setCurrentStep] = useState(0);
-    const [trackingNo, setTrackingNo] = useState < string | null > (null);
+    const [trackingNo, setTrackingNo] = useState(null);
     const [done, setDone] = useState(false);
     const audioRef = useRef(null);
 
